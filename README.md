@@ -15,31 +15,52 @@ Here is a simple **HTML & CSS** snippet from the project:
     <title>MakeMyHeritage</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Georgia', serif;
+            background-color: #faf3e0;
             text-align: center;
             padding: 20px;
         }
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 15px 0;
+            font-size: 24px;
+        }
         h1 {
-            color: #8B0000;
+            color: #5a2d0c;
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
         }
         .btn {
             background-color: #d4a373;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
+            border-radius: 8px;
             border: none;
             cursor: pointer;
-            font-size: 18px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
         }
         .btn:hover {
             background-color: #a56c44;
         }
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to MakeMyHeritage 🏛️</h1>
-    <p>Explore historical artifacts and cultural heritage online.</p>
+    <header>Welcome to MakeMyHeritage 🏛️</header>
+    <h1>Explore History Like Never Before</h1>
+    <p>Discover a world of artifacts, cultural heritage, and interactive exhibitions.</p>
     <button class="btn">Explore Now</button>
+    <footer>&copy; 2025 MakeMyHeritage | All rights reserved.</footer>
 </body>
 </html>
 ```
